@@ -225,11 +225,7 @@ data/raw/
 .ipynb_checkpoints/
 .venv/
 
-# Not needed for repo
-notebooks/initial_exploration.ipynb
-notebooks/initial_built_density.ipynb
-
 # Will fail due to size with parquet files, ignore all files in processed data if pushing
-# to github due to size
+# to github due to size of files
 data/processed/
 *.parquet

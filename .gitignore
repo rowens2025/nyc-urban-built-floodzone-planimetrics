@@ -229,6 +229,7 @@ data/raw/
 notebooks/initial_exploration.ipynb
 notebooks/initial_built_density.ipynb
 
-# Will fail due to size with parquet files, ignore all
+# Will fail due to size with parquet files, ignore all files in processed data if pushing
+# to github due to size
 data/processed/
 *.parquet

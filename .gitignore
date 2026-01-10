@@ -229,3 +229,6 @@ data/raw/
 # to github due to size of files
 data/processed/
 *.parquet
+
+# Ignore generated pmtiles map outputs
+/docs/pmtiles_map/
